@@ -8,70 +8,67 @@
     {
         "artists": ["Bob Marley"],
         "title": "Stir it Up",
-        "genres": ["Reggae,"],
+        "genres": ["Reggae"],
         "year": 1978
     },
     {
         "artists": ["Lady Gaga", "Bradley Cooper"],
         "title": "Shallow",
-        "genre": "Pop",
+        "genres": ["Pop"],
         "year": 2018
     },
     {
-      "artist": "Red Hot Chili Peppers",
+      "artists": ["Red Hot Chili Peppers"],
       "title": "Wet Sand",
-      "genre": "Rock,",
+      "genres": ["Rock"],
       "year": 2006
     },
     {
-      "artist": "Asap Rocky",
+      "artists": ["Asap Rocky"],
       "title": "Fashion Killa",
-      "genre": "Rap,",
+      "genres": ["Rap"],
       "year": 2013
     },
     {
-      "artist": "Lynyrd Skynyrd",
+      "artists": ["Lynyrd Skynyrd"],
       "title": "That Smell",
-      "genre": "Rock,",
+      "genres": ["Rock"],
       "year": 1977
     },
     {
-      "artist": "Darius Rucker",
+      "artists": ["Darius Rucker"],
       "title": "Wagon Wheel",
-      "genre": "Country,",
+      "genres": ["Country"],
       "year": 2013
     },
     {
-      "artist": "Coldplay",
+      "artists": ["Coldplay"],
       "title": "Hymn for the Weekend",
-      "genre": "Rock,",
+      "genres": ["Rock"],
       "year": 2015
     },
     {
-      "artist": "Drake",
+      "artists": ["Drake"],
       "title": "Hotline Bling",
-      "genre": "Rap,",
+      "genres": ["Rap"],
       "year": 2015
     },
     {
-      "artist": "Brantley Gilbert",
+      "artists": ["Brantley Gilbert"],
       "title": "Bottoms Up",
-      "genre": "Country,",
+      "genres": ["Country"],
       "year": 2010
     },
     {
-      "artist": "Bob Marley",
+      "artists": ["Bob Marley"],
       "title": "Jammin",
-      "genre": "Reggae,",
+      "genres": ["Reggae"],
       "year": 1977
     },
     {
-        "artist": "Queen",
+        "artists": ["Queen"],
         "title": "Bohemian Rhapsody",
-        "genres": [
-            {"genre1": "Glam Rock"},
-            {"genre2": "Heavy Rock"}
-        ],
+        "genres": ["Glam Rock", "Heavy Rock"],
         "year": 1975
       }
 ]
