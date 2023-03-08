@@ -51,28 +51,31 @@
 
 	document.write("<br/>" + "<br/>" + "<br/>")
 	var chosenGenre = "";
-	$('[name="genreSelect"]').on('change', function() { 
-		chosenGenre = $('[name="genreSelect"]').val();
-		for (a = 0; a < obj.length; a++) {
-			for (b = 0; b < obj[a]["genres"].length; b++) {
-				if (obj[a]["genres"][b] == chosenGenre) {
+	function run() {
+		$('[name="genreSelect"]').on('change', function() { 
+			chosenGenre = $('[name="genreSelect"]').val();
+			for (a = 0; a < obj.length; a++) {
+				for (b = 0; b < obj[a]["genres"].length; b++) {
+					if (obj[a]["genres"][b] == chosenGenre) {
 
-					document.write("Artists: ")
-					for (c = 0; c < obj[a]["artists"].length; c++) {
-						document.write(obj[a]["artists"][c] + ", ")	       
+						document.write("Artists: ")
+						for (c = 0; c < obj[a]["artists"].length; c++) {
+							document.write(obj[a]["artists"][c] + ", ")	       
+						}
+						document.write("<br/>")
+						document.write("Title: " + obj[a]["title"] + "<br/>")
+						document.write("Genres: ")
+						for (d = 0; d < obj[a]["genres"].length; k++) {
+							document.write(obj[a]["genres"][d] + ", ")	       
+						}
+						document.write("<br/>")
+						document.write("Released: " + obj[a]["year"] + "<br/>" + "<br/>")
 					}
-					document.write("<br/>")
-					document.write("Title: " + obj[a]["title"] + "<br/>")
-					document.write("Genres: ")
-					for (d = 0; d < obj[a]["genres"].length; k++) {
-						document.write(obj[a]["genres"][d] + ", ")	       
-					}
-					document.write("<br/>")
-					document.write("Released: " + obj[a]["year"] + "<br/>" + "<br/>")
 				}
 			}
-		}
-	})
+		})
+	}
+	run()
 	})
 </script>
 </body>
