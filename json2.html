@@ -54,6 +54,7 @@
 	$('[name="genreSelect"]').on('change', function() { 
 		chosenGenre = $('[name="genreSelect"]').val();
 	})
+	alert(chosenGenre);
 	for (a = 0; a < obj.length; a++) {
 		for (b = 0; b < obj[a]["genres"].length; b++) {
 			if (obj[a]["genres"][b] == chosenGenre) {
