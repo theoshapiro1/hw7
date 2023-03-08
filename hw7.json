@@ -28,5 +28,50 @@
       "title": "Fashion Killa",
       "genre": "Rap,",
       "year": 2013
-    }
+    },
+    {
+      "artist": "Lynyrd Skynyrd",
+      "title": "That Smell",
+      "genre": "Rock,",
+      "year": 1977
+    },
+    {
+      "artist": "Darius Rucker",
+      "title": "Wagon Wheel",
+      "genre": "Country,",
+      "year": 2013
+    },
+    {
+      "artist": "Coldplay",
+      "title": "Hymn for the Weekend",
+      "genre": "Rock,",
+      "year": 2015
+    },
+    {
+      "artist": "Drake",
+      "title": "Hotline Bling",
+      "genre": "Rap,",
+      "year": 2015
+    },
+    {
+      "artist": "Brantley Gilbert",
+      "title": "Bottoms Up",
+      "genre": "Country,",
+      "year": 2010
+    },
+    {
+      "artist": "Bob Marley",
+      "title": "Jammin",
+      "genre": "Reggae,",
+      "year": 1977
+    },
+    {
+        "artist": "Queen",
+        "title": "Bohemian Rhapsody",
+        "genres": [
+            {"genre1": "Glam Rock"},
+            {"genre2": "Heavy Rock"}
+        ],
+        "year": 1975
+      }
 ]
