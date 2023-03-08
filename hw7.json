@@ -2,7 +2,7 @@
     {
         "artists": ["James Taylor"],
         "title": "Mexico",
-        "genres": ["folk"],
+        "genres": ["Folk"],
         "year": 1975
     },
     {
@@ -86,7 +86,7 @@
     {
         "artists": ["Bob Marley"],
         "title": "Could you be Loved",
-        "genres": ["Reggae,"],
+        "genres": ["Reggae"],
         "year": 1980
     }
 ]
