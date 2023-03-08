@@ -64,6 +64,12 @@
 					}
 					document.write("<br/>")
 					document.write("Title: " + obj[a]["title"] + "<br/>")
+					document.write("Genres: ")
+					for (d = 0; d < obj[a]["genres"].length; k++) {
+						document.write(obj[a]["genres"][d] + ", ")	       
+					}
+					document.write("<br/>")
+					document.write("Released: " + obj[a]["year"] + "<br/>" + "<br/>")
 				}
 			}
 		}
