@@ -1,103 +1,14 @@
-{
-	"music": {
-	  "song": [
-		{
-		  "artist": "James Taylor",
-		  "title": "Mexico",
-		  "genre": "folk,",
-		  "year": 1975
-		},
-		{
-		  "artist": "Bob Marley",
-		  "title": "Stir it Up",
-		  "genre": "Reggae,",
-		  "year": 1978
-		},
-		{
-		  "artist": "Lynyrd Skynyrd",
-		  "title": "That Smell",
-		  "genre": "Rock,",
-		  "year": 1977
-		},
-		{
-		  "artist": "Darius Rucker",
-		  "title": "Wagon Wheel",
-		  "genre": "Country,",
-		  "year": 2013
-		},
-		{
-		  "artist": "Coldplay",
-		  "title": "Hymn for the Weekend",
-		  "genre": "Rock,",
-		  "year": 2015
-		},
-		{
-		  "artist": "Drake",
-		  "title": "Hotline Bling",
-		  "genre": "Rap,",
-		  "year": 2015
-		},
-		{
-		  "artist": "Brantley Gilbert",
-		  "title": "Bottoms Up",
-		  "genre": "Country,",
-		  "year": 2010
-		},
-		{
-		  "artist": "Bob Marley",
-		  "title": "Jammin",
-		  "genre": "Reggae,",
-		  "year": 1977
-		},
-		{
-		  "artist": "Red Hot Chili Peppers",
-		  "title": "Wet Sand",
-		  "genre": "Rock,",
-		  "year": 2006
-		},
-		{
-		  "artist": "Asap Rocky",
-		  "title": "Fashion Killa",
-		  "genre": "Rap,",
-		  "year": 2013
-		}
-        // {
-        //     "artists": [
-        //         {"artist1": "Lady Gaga"},
-        //         {"artist2": "Bradley Cooper"}
-        //     ],
-        //     "title": "Shallow",
-        //     "genre": "Pop",
-        //     "year": 2018
-        //   }
-        //   {
-        //     "artist": "Queen",
-        //     "title": "Bohemian Rhapsody",
-        //     "genres": [
-        //         {"genre1": "Glam Rock"},
-        //         {"genre2": "Heavy Rock"}
-        //     ],
-        //     "year": 1975
-        //   }
-          {
-            "artist": "Asap Rocky",
-            "title": "ashion Kill",
-            "genre": "Rap,",
-            "year": 2013
-          }
-          {
-            "artist": "Asap Rocky",
-            "title": "ashion Kill",
-            "genre": "Rap,",
-            "year": 2013
-          }
-          {
-            "artist": "Asap Rocky",
-            "title": "ashion Kill",
-            "genre": "Rap,",
-            "year": 2013
-          }
-        
-	  ]
-	}
-  }
+[
+    {
+        "artists": ["James Taylor"],
+        "title": "Mexico",
+        "genres": ["folk"],
+        "year": 1975
+    }
+    {
+        "artists": ["Bob Marley"],
+        "title": "Stir it Up",
+        "genres": ["Reggae,"],
+        "year": 1978
+    }
+]
