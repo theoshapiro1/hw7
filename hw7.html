@@ -12,19 +12,12 @@
 <body>
 	<script language="javascript">
 	$.get( "https://theoshapiro1.github.io/hw7/hw7.json", 
-		  function( data ) {
+		  
+	      	function( data ) {
+			alert("hi")
 			str = JSON.stringify(data);
 			document.write(str +"<br/>");
-// 		strHTML= "<ul>";
-// 		data.forEach(function(song) { 
-// 		strHTML += "<li>" 
-// 			    + song.artist + " : " 
-// 				+ song.title + " : "
-//                 + song.genre + " : "
-//                 + song.year + "</li>";
-// 			}) 
-// 	strHTML += "</ul>";
-// 	document.write (strHTML);  /**/
+
 	})
 </script>
 </body>
