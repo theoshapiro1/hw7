@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JSON Song Object</title>
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+	<!--script language="javascript" src="animals.json"></script-->
+	
+
+</head>
+
+<body>
+	<script language="javascript">
+	alert("hiii");
+	$.get( "hw7.json", 
+		  
+	      	function( data ) {
+			alert("hi");
+			str = JSON.stringify(data);
+			document.write(str +"<br/>");
+      obj = JSON.parse(str)
+      document.write("br/>" + obj[0]);
+	})
+</script>
+</body>
+</html>
+
