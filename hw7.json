@@ -70,5 +70,23 @@
         "title": "Bohemian Rhapsody",
         "genres": ["Glam Rock", "Heavy Rock"],
         "year": 1975
-      }
+    },
+    {
+        "artists": ["Ariana Grande"],
+        "title": "One Last Time",
+        "genres": ["Pop"],
+        "year": 2014
+    },
+    {
+        "artists": ["Ariana Grande"],
+        "title": "No Tears Left To Cry",
+        "genres": ["Pop"],
+        "year": 2018
+    },
+    {
+        "artists": ["Bob Marley"],
+        "title": "Could you be Loved",
+        "genres": ["Reggae,"],
+        "year": 1980
+    }
 ]
