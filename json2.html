@@ -18,7 +18,10 @@
 			document.write(str +"<br/>");
 			document.write("<br/>" + "<br/>" + "hello")
       obj = JSON.parse(str)
-      document.write("<br/>" + obj[0]["year"]);
+	for (i = 0; i < obj.length; i++) {
+		document.write(obj[i]["year"] + "<br/>")
+		document.write(obj[i]["title"] + "<br/>")
+	}
 	})
 </script>
 </body>
