@@ -19,18 +19,18 @@
 			document.write("<br/>" + "<br/>")
       obj = JSON.parse(str)
 	for (i = 0; i < obj.length; i++) {
+		document.write("Artists: ")
 		for (j = 0; j < obj[i]["artists"].length; j++) {
-			document.write("Artists: ")
 			document.write(obj[i]["artists"][j] + ", ")	       
 		}
 		document.write("<br/>")
 		document.write("Title: " + obj[i]["title"] + "<br/>")
+		document.write("Genres: ")
 		for (k = 0; k < obj[i]["genres"].length; k++) {
-			document.write("Genres: ")
 			document.write(obj[i]["genres"][k] + ", ")	       
 		}
 		document.write("<br/>")
-		document.write("Released: " + obj[i]["year"] + "<br/>")
+		document.write("Released: " + obj[i]["year"] + "<br/>" + "<br/>")
 		
 	}
 	})
