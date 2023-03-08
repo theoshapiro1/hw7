@@ -58,7 +58,7 @@
 	$('[name="genreSelect"]').on('change', function() { 
 		chosenGenre = $('[name="genreSelect"]').val();	
 		finalString = "Showing Filtered Results for: " + chosenGenre;
-		finalString += (chosenGenre + "<br/>" + "<br/>");
+		finalString += ("<br/>" + "<br/>");
 		for (a = 0; a < obj.length; a++) {
 			for (b = 0; b < obj[a]["genres"].length; b++) {
 				if (obj[a]["genres"][b] == chosenGenre) {
