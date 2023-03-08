@@ -10,5 +10,11 @@
         "title": "Stir it Up",
         "genres": ["Reggae,"],
         "year": 1978
-    }
+    },
+    {
+            "artists": ["Lady Gaga", "Bradley Cooper"],
+            "title": "Shallow",
+            "genre": "Pop",
+            "year": 2018
+          }
 ]
