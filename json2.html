@@ -34,21 +34,22 @@
 		
 	}
 	document.write("<br/>" + "<br/>")
-	var genreArray = []
+	const genreSet = new Set();
 	for (x = 0; x < obj.length; x++) {
 		for (y = 0; y < obj[x]["genres"].length; y++) {
-			genreArray.push(obj[x]["genres"][y])
+			genreSet.add(obj[x]["genres"][y])
 		}
 	}
+	const genreArray = [...genreSet];
 	
 	var t= "";
 	t = "<select name='genreSelect'>";
-	for (z=0; z<=genreArray.length; z++)
+	for (z=0; z < genreArray.length; z++)
 	   t += "<option>" + genreArray[z] + "</option>";
 	t+= "</select>"; 
 	document.write(t);
 
-	document.write("<br/>")
+	document.write("<br/>" + "<br/>" + "<br/>")
 	var chosenGenre = "";
 	$('[name="genreSelect"]').on('change', function() { 
 		chosenGenre = $('[name="genreSelect"]').val();
