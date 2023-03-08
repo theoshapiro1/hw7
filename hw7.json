@@ -16,5 +16,17 @@
         "title": "Shallow",
         "genre": "Pop",
         "year": 2018
-     }
+    },
+    {
+      "artist": "Red Hot Chili Peppers",
+      "title": "Wet Sand",
+      "genre": "Rock,",
+      "year": 2006
+    },
+    {
+      "artist": "Asap Rocky",
+      "title": "Fashion Killa",
+      "genre": "Rap,",
+      "year": 2013
+    }
 ]
