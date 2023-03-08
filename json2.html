@@ -42,8 +42,10 @@
 	}
 	const genreArray = [...genreSet];
 	
+	document.write("Filter by Genre:")
 	var t= "";
 	t = "<select name='genreSelect'>";
+	t += "<option>" + " " + "</option>";
 	for (z=0; z < genreArray.length; z++)
 	   t += "<option>" + genreArray[z] + "</option>";
 	t+= "</select>"; 
@@ -52,27 +54,29 @@
 	document.write("<br/>" + "<br/>" + "<br/>")
 	var chosenGenre = "";
 	
+	var finalString
 	$('[name="genreSelect"]').on('change', function() { 
 		chosenGenre = $('[name="genreSelect"]').val();	
-		document.write(chosenGenre + "<br/>" + "<br/>");
+		finalString += (chosenGenre + "<br/>" + "<br/>");
 		for (a = 0; a < obj.length; a++) {
 			for (b = 0; b < obj[a]["genres"].length; b++) {
 				if (obj[a]["genres"][b] == chosenGenre) {
-					document.write("Artists: ")
+					finalString += ("Artists: ")
 					for (c = 0; c < obj[a]["artists"].length; c++) {
-						document.write(obj[a]["artists"][c] + ", ")	       
+						finalString += (obj[a]["artists"][c] + ", ")	       
 					}
-					document.write("<br/>")
-					document.write("Title: " + obj[a]["title"] + "<br/>")
-					document.write("Genres: ")
+					finalString += ("<br/>")
+					finalString += ("Title: " + obj[a]["title"] + "<br/>")
+					finalString += ("Genres: ")
 					for (d = 0; d < obj[a]["genres"].length; d++) {
-						document.write(obj[a]["genres"][d] + ", ")	       
+						finalString += (obj[a]["genres"][d] + ", ")	       
 					}
-					document.write("<br/>")
-					document.write("Released: " + obj[a]["year"] + "<br/>" + "<br/>")
+					finalString += ("<br/>")
+					finalString += ("Released: " + obj[a]["year"] + "<br/>" + "<br/>")
 				}
 			}
 		}
+		document.write(finalString);
 		
 	})
 		
