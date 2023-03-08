@@ -10,7 +10,6 @@
 </head>
 
 <body>
-	<textarea id = "finalText" value = "" rows = "5" style="height:200px; width:500px; font-size:14pt;"></textarea><br /><br /><br /><br />
 	<script language="javascript">
 	$.get( "hw7.json", 
 		  
@@ -58,7 +57,7 @@
 	var finalString = ""
 	$('[name="genreSelect"]').on('change', function() { 
 		chosenGenre = $('[name="genreSelect"]').val();	
-		finalString = "";
+		finalString = "Showing Filtered Results for: " + chosenGenre;
 		finalString += (chosenGenre + "<br/>" + "<br/>");
 		for (a = 0; a < obj.length; a++) {
 			for (b = 0; b < obj[a]["genres"].length; b++) {
@@ -78,7 +77,7 @@
 				}
 			}
 		}
-		document.getElementById("finalText").value = finalString;
+		document.write(finalString)
 		
 	})
 		
